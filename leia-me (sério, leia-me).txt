@@ -1,3 +1,8 @@
-o Receptor_LM7171.asc precisa do LM7171_SN.lib nesta pasta: C:\Users\[SUA MÁQUINA]\AppData\Local\LTspice\lib\sub) 
-o Receptor_V2_THS4632_b.asc os arquivos THS4631.asy e ths4631_b.lib DEVEM ESTAR na mesma pasta/diretório que a simulação Receptor_V2_THS4632_b.asc
+O Receptor_LM7171.asc precisa do LM7171_SN.lib nesta pasta: C:\Users\[SUA MÁQUINA]\AppData\Local\LTspice\lib\sub).
 
+O Receptor_V2_THS4632_b.asc os arquivos THS4631.asy e ths4631_b.lib DEVEM ESTAR na mesma pasta/diretório que a simulação Receptor_V2_THS4632_b.asc
+
+O arquivo RF_vs_CF.m é um script para comparar diferentes valores de resistor e capacitor para a malha de feedback do circuito. 
+O arquivo dados_sweep.txt é o arquivo de entrada deste script. ele é retirado ao rodar a simulação LTspice. 
+
+Para gerar um novo .txt apenas clique com o botão direito sob o plot gerado pela simulação, vá em File e clique em Export as text (salve o arquivo com qualquer nome, desde que o nome seja igual ao fileread no script do matlab..)
