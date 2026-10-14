@@ -1,1 +1,3 @@
-As simulações principais são  o Receptor_LM7171.asc (precisa do .lib da SN pra funcionar) e o Receptor_V2_THS4632_b.asc (ta configurado, só rodar). as outras versões são modelos antigos e na sua maioria não funcionam. 
+o Receptor_LM7171.asc precisa do LM7171_SN.lib nesta pasta: C:\Users\[SUA MÁQUINA]\AppData\Local\LTspice\lib\sub) 
+o Receptor_V2_THS4632_b.asc os arquivos THS4631.asy e ths4631_b.lib DEVEM ESTAR na mesma pasta/diretório que a simulação Receptor_V2_THS4632_b.asc
+
