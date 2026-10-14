@@ -1,0 +1,1 @@
+As simulações principais são  o Receptor_LM7171.asc (precisa do .lib da SN pra funcionar) e o Receptor_V2_THS4632_b.asc (ta configurado, só rodar). as outras versões são modelos antigos e na sua maioria não funcionam. 
